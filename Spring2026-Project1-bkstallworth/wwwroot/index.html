@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Breaking Bad</title>
+
+        <link rel="stylesheet" href="/css/site.css" />
+        <script src="/js/site.js" defer></script>
+    </head>
+
+</head>
+
+<body>
+
+    <div id="container">
+
+        <h1 id="Title">Breaking Bad</h1>
+
+        <img id="CoverArt"
+             src="Images/Coverart.jpg"
+             alt="Breaking Bad Cover Art">
+
+        <h5 id="Rating">IMDB Rating: 9.5 / 10</h5>
+
+        <iframe id="Trailer"
+                src="https://www.youtube.com/embed/HhesaQXLuRY"
+                title="Breaking Bad Trailer"
+                allowfullscreen>
+        </iframe>
+
+        <p id="Summary">
+            A chemistry teacher diagnosed with inoperable lung cancer turns to manufacturing and selling methamphetamine with a former student to secure his family's future.".
+        </p>
+
+        <a href="https://www.imdb.com/title/tt0903747/" target="_blank">
+            Visit Breaking Bad on IMDB
+        </a>
+
+        <h3>Main Actors</h3>
+        <ul id="Actors">
+            <li>Bryan Cranston(Walter White)</li>
+            <li>Aaron Paul(Jesse Pinkman)</li>
+            <li>Johnathan Banks(Mike Ehrmantraut)</li>
+            <li>Dean Norris(Hank Shrader)</li>
+            <li>Giancarlo Esposito(Gustavo Fring)</li>
+        </ul>
+
+        <h3>Click a Character below for description</h3>
+
+        <img src="Images/Walter.jpg"
+             class="character"
+             onclick="showCharacter('walter')">
+
+        <img src="Images/Jesse.jpg"
+             class="character"
+             onclick="showCharacter('jesse')">
+
+        <img src="Images/Mike.jpg"
+             class="character"
+             onclick="showCharacter('mike')">
+
+        <img src="Images/Hank.jpg"
+             class="character"
+             onclick="showCharacter('hank')">
+
+        <img src="Images/Gus.jpg"
+             class="character"
+             onclick="showCharacter('gus')">
+
+        <div id="characterInfo"></div>
+
+    </div>
+
+</body>
+</html>
